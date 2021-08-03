@@ -4,8 +4,13 @@
   "colors": {
     "editor.background": "#f5f5f5",
     "editor.foreground": "#333333",
-    "list.activeSelectionIconForeground": "#fff"
+    "list.activeSelectionIconForeground": "#fff",
+    "editorSuggestWidget.highlightForeground": "#d73a49",
+    "editorSuggestWidget.foreground": "#555",
+    "editorSuggestWidget.selectedForeground": "#FFF",
+    "editorSuggestWidget.focusHighlightForeground": "#d73a49"
   },
+
   "tokenColors": [
     {
       "name": "Comments",
@@ -78,18 +83,17 @@
       "settings": {
         "fontStyle": "bold"
       }
-    }, 
-    {
-      "name": "Editor Suggest Highlight",
-      "scope": ["editorSuggestWidget.highlight", ""],
-      "settings": {
-        "foreground": "#000000",
-        "fontStyle": "bold"
-      }
     }
+    // {
+    //   "name": "Editor Suggest Highlight",
+    //   "scope": ["editorSuggestWidget.highlightForeground"],
+    //   "settings": {
+    //     "foreground": "#000000",
+    //     "fontStyle": "bold"
+    //   }
+    // }
 
-
-    //        
+    //
 
     // {
     //   "name": "Test",
