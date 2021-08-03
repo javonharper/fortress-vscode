@@ -78,7 +78,19 @@
       "settings": {
         "fontStyle": "bold"
       }
+    }, 
+    {
+      "name": "Editor Suggest Highlight",
+      "scope": ["editorSuggestWidget.highlight", ""],
+      "settings": {
+        "foreground": "#000000",
+        "fontStyle": "bold"
+      }
     }
+
+
+    //        
+
     // {
     //   "name": "Test",
     //   "scope": ["keyword"],
