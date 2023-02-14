@@ -1,3 +1,26 @@
+// Colors
+// Slate 50 #f8fafc
+// Slate 100 #f1f5f9
+// Slate 200 #e2e8f0
+// Slate 300 #cbd5e1
+// Slate 400 #94a3b8
+// Slate 500 #64748b
+// Slate 600 #475569
+// Slate 700 #334155
+// Slate 800 #1e293b
+// Slate 900 #0f172a
+
+// Blue 50 #eff6ff
+// Blue 100 #dbeafe
+// Blue 200 #bfdbfe
+// Blue 300 #93c5fd
+// Blue 400 #60a5fa
+// Blue 500 #3b82f6
+// Blue 600 #2563eb
+// Blue 700 #1d4ed8
+// Blue 800 #1e40af
+// Blue 900 #1e3a8a
+
 {
   "colors": {
     "editor.background": "#FFFFFF",
@@ -26,34 +49,41 @@
   "name": "Fortress",
   "tokenColors": [
     {
+      // Done
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "#C5C8C6"
+        "foreground": "#94a3b8"
       }
     },
     {
+      // Done
       "name": "String",
-      "scope": "string",
+      "scope": ["string", "constant.numeric"],
       "settings": {
-        "foreground": "#969896"
+        "foreground": "#1d4ed8"
       }
     },
     {
-      "name": "Number",
-      "scope": "constant.numeric",
-      "settings": {
-        "foreground": "#969896"
-      }
-    },
-    {
+      // Done
       "name": "Built-in constant",
       "scope": "constant.language",
       "settings": {
         "fontStyle": " italic",
+        "foreground": "#1d4ed8"
+      }
+    },
+
+    {
+      // Done
+      "name": "Storage",
+      "scope": "storage",
+      "settings": {
+        "fontStyle": " bold",
         "foreground": "#969896"
       }
     },
+
     {
       "name": "User-defined constant",
       "scope": ["constant.character", "constant.other"],
@@ -72,18 +102,11 @@
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "fontStyle": "bold",
+        // "fontStyle": "bold",
         "foreground": "#282A2E"
       }
     },
-    {
-      "name": "Storage",
-      "scope": "storage",
-      "settings": {
-        "fontStyle": " bold",
-        "foreground": "#969896"
-      }
-    },
+
     {
       "name": "Storage type",
       "scope": "storage.type",
@@ -127,7 +150,6 @@
       "name": "Tag name",
       "scope": "entity.name.tag",
       "settings": {
-        "fontStyle": "",
         "foreground": "#282A2E"
       }
     },
@@ -155,14 +177,14 @@
         "foreground": "#282a2eff"
       }
     },
-    {
-      "name": "Library class/type",
-      "scope": ["support.type", "support.class"],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#969896ff"
-      }
-    },
+    // {
+    //   "name": "Library class/type",
+    //   "scope": ["support.type", "support.class"],
+    //   "settings": {
+    //     "fontStyle": "italic",
+    //     "foreground": "#969896ff"
+    //   }
+    // },
     {
       "name": "Library variable",
       "scope": "support.other.variable",
