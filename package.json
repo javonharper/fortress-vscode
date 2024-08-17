@@ -1,8 +1,8 @@
 {
     "name": "fortress",
-    "displayName": "fortress",
-    "description": "a minimal theme for vscode",
-    "version": "0.0.1",
+    "displayName": "Fortress",
+    "description": "A dark theme for VS Code",
+    "version": "0.0.2",
     "repository": "https://github.com/javonharper/fortress-vscode",
     "publisher": "JavonHarper",
     "engines": {
