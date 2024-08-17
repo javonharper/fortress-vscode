@@ -3,6 +3,8 @@
     "displayName": "fortress",
     "description": "a minimal theme for vscode",
     "version": "0.0.1",
+    "repository": "https://github.com/javonharper/fortress-vscode",
+    "publisher": "JavonHarper",
     "engines": {
         "vscode": "^1.58.0"
     },

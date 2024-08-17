@@ -508,7 +508,7 @@
         "entity.name.type.variant.gdscript",
         "entity.name.function.powershell"
       ],
-      "settings": { "foreground": "#FFFFFF" }
+      "settings": { "foreground": "#aaaab3" }
     },
     {
       "scope": [
@@ -582,7 +582,7 @@
         "keyword.cmake",
         "keyword.codetag.notation"
       ],
-      "settings": { "foreground": "#FFFFFF", "fontStyle": "bold" }
+      "settings": { "foreground": "#e3e3eb", "fontStyle": "bold" }
     },
     {
       "scope": ["meta.object-literal.key", "variable.object.property"],
@@ -609,7 +609,19 @@
         "keyword.operator.arithmetic",
         "keyword.operator.math"
       ],
-      "settings": { "foreground": "#FFFFFF" }
+      "settings": { "foreground": "#aaaab3" }
+    },
+    {
+      "scope": ["variable.language.self"], "settings": {
+        "foreground": "#FFFFFF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["keyword.operator.borrow"], "settings": {
+        "foreground": "#FFFFFF",
+        "fontStyle": "bold"
+      }
     },
     {
       "scope": [
@@ -669,7 +681,7 @@
         "JSXAttrs keyword.operator.assignment.jsx",
         "meta.tag.attributes.js keyword.operator.assignment.js"
       ],
-      "settings": { "foreground": "#FFFFFF" }
+      "settings": { "foreground": "#aaaab3" }
     },
     {
       "scope": [
@@ -724,7 +736,7 @@
         "keyword.const.go",
         "keyword.storage.modifier"
       ],
-      "settings": { "foreground": "#FFFFFF", "fontStyle": "bold" }
+      "settings": { "foreground": "#e3e3eb", "fontStyle": "bold" }
     },
     {
       "scope": [
@@ -800,7 +812,7 @@
         "entity.other.alias.php",
         "meta.group.simple.subexpression.powershell meta.scriptblock.powershell storage.type.powershell"
       ],
-      "settings": { "foreground": "#FFFFFF", "fontStyle": "bold" }
+      "settings": { "foreground": "#0092E2dd", "fontStyle": "bold" }
     },
     {
       "scope": [
@@ -831,7 +843,7 @@
         "storage.source.cmake",
         "entity.source.cmake"
       ],
-      "settings": { "foreground": "#FFFFFF" }
+      "settings": { "foreground": "#aaaab3" }
     },
     {
       "scope": ["source.elm constant.type-constructor"],
