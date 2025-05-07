@@ -594,7 +594,7 @@
         "support.type.property-name",
         "entity.name.tag.yaml"
       ],
-      "settings": { "foreground": "#FFB638" }
+      "settings": { "foreground": "#28A9FF" }
     },
     {
       "scope": [
@@ -762,7 +762,7 @@
         "punctuation.definition.string.end.html source.css",
         "string.quoted.double.html source.css"
       ],
-      "settings": { "foreground": "#aaaab3" }
+      "settings": { "foreground": "#28A9FF" }
     },
     {
       "scope": [
